@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="indexContainer">
+  <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+  <!-- bindgetuserinfo:获取用户后的回调函数 -->
+  <button bindgetuserinfo="handleGetUserInfo" class="userInfoBtn" open-type="getUserInfo" style="display:{{isShow?'block':'none'}}">获取用户信息</button>
+  <text class="userName">hello  {{userInfo.nickName}}</text>
+  <view  catchtap="handleClick" class="goStudy">
+    <text>开启小程序之旅</text>
+  </view>
+  <view>
+    <button class="tanChuBtn" catchtap="viewBtn">弹出框</button>
+  </view>
+  <view>
+    <button class="tanChuBtn" bindgetphonenumber="getPhone" open-type="getPhoneNumber">获取手机号</button>
+  </view>
+</view>
