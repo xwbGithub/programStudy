@@ -16,7 +16,7 @@ let list_data = [
     attention_count: 66,
     detail: '钢铁战队。。',
     music: {
-      dataUrl: 'http://m10.music.126.net/20200324235417/e330b7e6642269a5c928111724d62b02/ymusic/525d/540b/510f/e7403c0f89ca574eea7dfea2ac7601f5.mp3', // 音乐链接
+      dataUrl: 'http://m801.music.126.net/20200326233519/b626c9ccf3e7f47630ee76a82d04659d/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1508105847/7f93/c1fc/be50/e2a0de9d6c5834e1024de41610af8b5e.mp3', // 音乐链接
       title: 'IF-Ken Arai',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
@@ -38,7 +38,7 @@ let list_data = [
     attention_count: 66,
     detail: '有魅力的老男人。',
     music: {
-      dataUrl: 'http://www.ytmp3.cn/down/50395.mp3', // 音乐链接
+      dataUrl: 'http://m801.music.126.net/20200326233519/b626c9ccf3e7f47630ee76a82d04659d/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1508105847/7f93/c1fc/be50/e2a0de9d6c5834e1024de41610af8b5e.mp3', // 音乐链接
       title: '一路向北',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
@@ -60,7 +60,7 @@ let list_data = [
     attention_count: 66,
     detail: '巨无霸教授。',
     music: {
-      dataUrl: 'http://m801.music.126.net/20200324235621/19f9130c25e0d6894d75310f39b5390a/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1669596044/7029/5cab/85f3/b59500372e327b5cf250a94dcd4a10a4.mp3', // 音乐链接
+      dataUrl: 'http://m801.music.126.net/20200326233519/b626c9ccf3e7f47630ee76a82d04659d/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1508105847/7f93/c1fc/be50/e2a0de9d6c5834e1024de41610af8b5e.mp3', // 音乐链接
       title: '听海',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
@@ -79,7 +79,7 @@ let list_data = [
     attention_count: 88,
     avatar: '/images/avatar/1.png',
     music: {
-      dataUrl: 'http://m801.music.126.net/20200324235621/19f9130c25e0d6894d75310f39b5390a/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1669596044/7029/5cab/85f3/b59500372e327b5cf250a94dcd4a10a4.mp3', // 音乐链接
+      dataUrl: 'http://m801.music.126.net/20200326233519/b626c9ccf3e7f47630ee76a82d04659d/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1508105847/7f93/c1fc/be50/e2a0de9d6c5834e1024de41610af8b5e.mp3', // 音乐链接
       title: 'Sunset Jesus-Avicii',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
@@ -98,7 +98,7 @@ let list_data = [
     author: '新华社',
     avatar: '/images/avatar/2.png',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46102.mp3', // 音乐链接
+      dataUrl: 'http://m801.music.126.net/20200326233519/b626c9ccf3e7f47630ee76a82d04659d/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1508105847/7f93/c1fc/be50/e2a0de9d6c5834e1024de41610af8b5e.mp3', // 音乐链接
       title: '汪峰 - 儿时',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
@@ -119,7 +119,7 @@ let list_data = [
     attention_count: 66,
     detail: '女神。。。',
     music: {
-      dataUrl: 'http://m10.music.126.net/20200324235701/df47bdde8a87cb046b6faa782e5c4b32/ymusic/42b6/243a/497e/485565d890847c770774e5d58fb60acc.mp3', // 音乐链接
+      dataUrl: 'http://m801.music.126.net/20200326233519/b626c9ccf3e7f47630ee76a82d04659d/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1508105847/7f93/c1fc/be50/e2a0de9d6c5834e1024de41610af8b5e.mp3', // 音乐链接
       title: '曲婉婷 - 我的歌声里-(电视剧《在线爱》主题曲)',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
@@ -140,7 +140,7 @@ let list_data = [
     attention_count: 66,
     detail: '女神2。。。',
     music: {
-      dataUrl: 'http://m10.music.126.net/20200324235725/c81e1719666cf5e931dd89997fccab80/ymusic/b057/d406/7fde/f47180f5f34ca5caab3249f37b0207c5.mp3', // 音乐链接
+      dataUrl: 'http://m801.music.126.net/20200326233519/b626c9ccf3e7f47630ee76a82d04659d/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1508105847/7f93/c1fc/be50/e2a0de9d6c5834e1024de41610af8b5e.mp3', // 音乐链接
       title: 'IF-Ken Arai',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },

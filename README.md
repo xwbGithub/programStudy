@@ -38,3 +38,17 @@
 ### currentTarget和target的区别
     1、target指向的是触发事件的元素
     2、currentTarget指向的是捕获事件的元素
+### 本地缓存(setStorage[同步],setStorageSync[异步])
+    1、缓存的是哟过户是否收藏过次文章：{0：true,1:flase}
+    2、注意
+      2.1、缓存之前应该先去获取之前本地的缓存的数据
+      2.2、缓存的新数据是在原有数据的基础上进行的
+      2.3、当页面加载的时候onLoad中获取本地缓存的数据(动态修改当前的数据是否收藏文章的状态)
+      2.4、如果storage中没有缓存过，则通过key获取的value是空的
+      2.5、如果用户之前没有缓存过的话，初始化一个storage中
+### 音乐播放
+    1、如何知道音乐是播放还是暂停
+    2、将播放音乐的页面缓存到appData中
+### 分享功能
+    1、从底部弹框 wx.showActionSheet();
+    2、open-type="share"的分享
