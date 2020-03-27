@@ -20,8 +20,12 @@ Page({
   },
   //点击按钮跳转到指定页面
   handleClick(){
-    wx.navigateTo({
-      url: '/pages/list/list'
+    // wx.navigateTo({
+    //   url: '/pages/list/list'
+    // }),
+    //https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.switchTab.html
+    wx.switchTab({
+      url: '/pages/list/list',
     })
   },
   // 生命周期函数，监听页面的加载

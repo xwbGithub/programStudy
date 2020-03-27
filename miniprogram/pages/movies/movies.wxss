@@ -1,0 +1,32 @@
+/* miniprogram/pages/movies/movies.wxss */
+.moviesContainer{
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.moviesImg{
+  width: 128rpx;
+  height: 128rpx;
+}
+.movies_detail{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 20rpx;
+}
+.movies_name{
+  font-size: 32rpx;
+  color: #000;
+  white-space: normal; /* 不换行 */
+  overflow: hidden; /* 超出部分影藏 */
+}
+.movies_year{
+  font-size: 28rpx;
+  color:#666;
+  margin: 8rpx 0;
+}
+.movies_rating{
+  font-size: 40rpx;
+  color: red;
+  font-weight: bold;
+}

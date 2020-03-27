@@ -52,3 +52,7 @@
 ### 分享功能
     1、从底部弹框 wx.showActionSheet();
     2、open-type="share"的分享
+### 页面跳转
+    1、<navigator url="/pages/movieDetail/movieDetail"></navigator>
+### 跳转tabBar的菜单使用方法
+    1、wx.switchTab

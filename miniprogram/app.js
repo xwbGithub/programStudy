@@ -3,8 +3,8 @@ App({
     //初始全局配置的数据
     data:{
       isPlay:false, //是否在播放
-      pageIndex: null //是否是当前页面在播放
-
+      pageIndex: null, //是否是当前页面在播放
+      movieArr:[]
     },
    onLaunch: function () {
     
