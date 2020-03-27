@@ -56,3 +56,36 @@
     1、<navigator url="/pages/movieDetail/movieDetail"></navigator>
 ### 跳转tabBar的菜单使用方法
     1、wx.switchTab
+    ~~~jsp
+      a页面
+      let appData = getApp();  // 获取app中的数据对象
+      onLoad (options) {
+        // 加载到数据之前给用户显示‘正在加载的提示信息’
+        wx.showToast({
+          title: "加载中...",
+          icon: "loading",
+          duration: 3000
+        });
+        wx.request({
+          url: API_URL,
+          header: {
+            'Content-type': 'json',
+          },
+          success: (res) => {
+            // 隐藏提示加载信息
+            wx.hideToast();
+            console.log(res);
+            this.setData({movies: res.data.subjects})
+            appData.appData.movies = res.data.subjects; // 将数据更新至公共的app数据对象中
+          }
+        })
+      },
+    b页面
+    let appData = getApp();
+    onLoad: function (options) {
+      console.log(options.id);
+      console.log(appData.appData.movies);
+      this.setData({movie: appData.appData.movies[options.id]})
+    },
+
+    ~~~jsp
